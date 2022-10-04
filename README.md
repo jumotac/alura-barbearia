@@ -1,4 +1,14 @@
-# Alura Barbearia
+| :placard: Vitrine.Dev |     |
+| ------------- | --- |
+| :sparkles: Nome | **Alura Barbearia** 
+| :label: Tecnologias | HTML, CSS 
+| :rocket: URL | https://jumotac.github.io/alura-barbearia/
+| :fire: Desafio | Desenvolva a Primeira Página na Web
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://raw.githubusercontent.com/jumotac/alura-barbearia/master/img/alura-barbearia.png#vitrinedev)
+
+# Minha Primeira Página na Web
 
 Esse foi o meu primeiro projeto como aluna da plataforma [Alura](https://www.alura.com.br/) e tenho um carinho muito especial por ele. Fiquei super feliz com o resultado, pois repaginei todo o layout, além disso, quando postei no LinkedIn (época que ainda nem sabia o que era Github, rsrs...) recebi muitos elogios e foi o post que teve *16.224* impressões!
 
@@ -6,7 +16,7 @@ Esse foi o meu primeiro projeto como aluna da plataforma [Alura](https://www.alu
 
 ![img](./img/linkedin.jpeg)
 
-### Nessa projeto, aprendi como:
+### :books:Nessa projeto, aprendi como:
 - O que é o HTML e o CSS;
 - Estrutura básica de um arquivo HTML;
 - Como utilizar o navegador para inspecionar elementos;

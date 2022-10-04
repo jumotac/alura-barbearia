@@ -252,7 +252,7 @@ em strong {
     width: 40%;
     display: inline-block;
     vertical-align: top;
-    list-style-image: url("../img/marcador.png");
+    list-style-image: url("./img/marcador.png");
 }
 
 .itens {
