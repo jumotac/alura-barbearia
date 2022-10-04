@@ -4,7 +4,7 @@ Esse foi o meu primeiro projeto como aluna da plataforma [Alura](https://www.alu
 
 [LINKEDIN](https://www.linkedin.com/feed/update/urn:li:activity:6795470177598365698/)
 
-![](../img/linkedin.jpeg)
+![img](../img/linkedin.jpeg)
 
 ### Nessa projeto, aprendi como:
 - O que é o HTML e o CSS;
