@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #051933;
+}   
+
+header {
+    background: linear-gradient( 45deg, #051933 80%, #093366, #167bf7);
+    padding: 20px 0px;
+}
+
+.titulo-logo {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    font-family: 'Candal', sans-serif;
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* css da página produtos */
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #00c86f;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #CCCCCC;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    color:#051933;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #167bf7;
+    border-radius: 10px;
+    border-top: 8px solid #167bf7;
+}
+
+.produtos li:hover {
+    border-color: #00c86f;
+}
+
+.produtos li:active {
+    border-color:#f16165;
+}
+
+.produtos li:hover h2 {
+    font-size: 32px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px; 
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient( -130deg, #051933 80%, #093366, #167bf7);
+    padding: 40px 0;
+    border-top: 5px solid #167bf7;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px 0 0;
+}
+
+/* css da página contatos */
+
+form {
+    width: 940px;
+    margin: 4em auto;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    color:#051933;
+    margin: 0 0 20px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border:1px solid #167bf7;
+}
+
+.checkbox {
+    margin: 20px 0;
+    color:#051933;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: #a3ffbf;
+    color:#051933;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #00c86f;
+    transform: scale(1.2);
+}
+
+table {
+    width: 940px;
+    margin: 4em auto;
+}
+
+thead, th {
+    font-weight: bold;
+    border: 1px solid #167bf7;
+    padding: 8px 15px;
+    background: #167bf7;
+    color: white;
+}
+
+
+td {
+    border: 1px solid #167bf7;
+    padding: 8px 15px;
+    color: #051933;
+}
+
+/* css da página inicial */
+
+.banner {
+    width: 100%;
+    border-top: 5px solid #167bf7;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    color: #167bf7;
+    font-weight: bold;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;
+    line-height: 1.5em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em strong {
+    color: #00c86f;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 250px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, #E2EFFE);
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.beneficios {
+    padding: 3em 0;
+    background: #E2EFFE;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    list-style-image: url("../img/marcador.png");
+}
+
+.itens {
+    line-height: 1.5em;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.imagem-beneficios {
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #051933;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
+}
+
+.video {
+    width: 560px;
+    height: 315px;
+    margin: 5em auto;
+
+}
